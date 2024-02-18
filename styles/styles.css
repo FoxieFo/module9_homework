@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #9EA1D4;
+    border-radius: 10px;
+    background-color: #E5E0FF;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whi;
+    border: 2px solid grey;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    padding: 6px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+img {
+    max-width: 250px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next-btn {
+    margin-top: 20px;
+}
+
+.back-btn {
+    margin-top: 20px;
+}
